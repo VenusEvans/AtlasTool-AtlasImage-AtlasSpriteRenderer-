@@ -1,1 +1,1 @@
-# AtlasTool-AtlasImage-AtlasSpriteRenderer-
+# Unity-AtlasTool (AtlasImage, AtlasSpriteRenderer)
