@@ -6,7 +6,7 @@
 
 #### AtlasImage Component
 
-![AtlasImageComponent](Image\AtlasImageComponent.jpg)
+![AtlasImageComponent](.\Image\AtlasImageComponent.jpg)
 
 You can open the "[SelectionAtlasWindow](#SelectionAtlasWindow )" by clicking the "Select Atlas" button. Click the "Select Sprites" button to open the "[SpriteCollectionWindow](#SpriteCollectionWindow)"
 
@@ -27,7 +27,7 @@ public Sprite sprite; //Member In UnityEngine.UI.Image.cs (Changing the value wi
 
 #### AtlasSpriteRenderer Component
 
-![AtlasSpriteRenderer](Image\AtlasSpriteRenderer.jpg)
+![AtlasSpriteRenderer](.\Image\AtlasSpriteRenderer.jpg)
 
 You can open the "[SelectionAtlasWindow](#SelectionAtlasWindow )" by clicking the "Select Atlas" button. Click the "Select Sprites" button to open the "[SpriteCollectionWindow](#SpriteCollectionWindow)"
 
@@ -46,7 +46,7 @@ public Sprite Sprite { get; set; }
 
 #### SelectionAtlasWindow
 
-![SelectionAtlasWindow](Image\SelectionAtlasWindow.jpg)
+![SelectionAtlasWindow](.\Image\SelectionAtlasWindow.jpg)
 
 This window will show all the atlas files in your project, including their paths.
 
@@ -62,19 +62,19 @@ You can select the corresponding atlas by clicking the "Select" button on the fa
 
 ##### :exclamation: If you do not select a GameObject in the scene or the selected GameObject does not contain the two components of this plug-in, the window will display the following style:
 
-![SelectAtlasWindow_unSelectComponent](Image\SelectAtlasWindow_unSelectComponent.jpg)
+![SelectAtlasWindow_unSelectComponent](.\Image\SelectAtlasWindow_unSelectComponent.jpg)
 
 
 
 ##### :exclamation: If this component selects the atlas, the following style will be displayed:
 
-![SelectAtlasWindow_SelectedComponent](Image\SelectAtlasWindow_SelectedComponent.jpg)
+![SelectAtlasWindow_SelectedComponent](.\Image\SelectAtlasWindow_SelectedComponent.jpg)
 
 
 
 #### SpriteCollectionWindow
 
-![SpriteCollectionWindow](Image\SpriteCollectionWindow.jpg)
+![SpriteCollectionWindow](.\Image\SpriteCollectionWindow.jpg)
 
 This window will display all the sprites in the atlas.
 
@@ -90,4 +90,4 @@ In order to help you quickly find the sprite you want, you can select it through
 
 ##### :exclamation: If you do not select a GameObject in the scene or the selected GameObject does not contain the two components of this plug-in, the window will display the following style:
 
-![SpriteCollectionWindow_unSelectComponent](Image\SpriteCollectionWindow_unSelectComponent.jpg)
+![SpriteCollectionWindow_unSelectComponent](.\Image\SpriteCollectionWindow_unSelectComponent.jpg)
