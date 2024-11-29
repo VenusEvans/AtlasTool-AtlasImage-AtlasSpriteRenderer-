@@ -6,7 +6,7 @@
 
 #### AtlasImage Component
 
-![AtlasImageComponent](.\Image\AtlasImageComponent.jpg)
+![AtlasImageComponent](..\Image\AtlasImageComponent.jpg)
 
 You can open the "[SelectionAtlasWindow](#SelectionAtlasWindow )" by clicking the "Select Atlas" button. Click the "Select Sprites" button to open the "[SpriteCollectionWindow](#SpriteCollectionWindow)"
 
