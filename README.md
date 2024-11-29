@@ -4,7 +4,7 @@
 
 [Unity Asset Store]: Ready...
 
-#### AtlasImage Component
+### AtlasImage Component
 
 ![AtlasImageComponent](Image/AtlasImageComponent.jpg)
 
@@ -25,7 +25,7 @@ public Sprite sprite; //Member In UnityEngine.UI.Image.cs (Changing the value wi
 
 
 
-#### AtlasSpriteRenderer Component
+### AtlasSpriteRenderer Component
 
 ![AtlasSpriteRenderer](Image/AtlasSpriteRenderer.jpg)
 
@@ -44,7 +44,7 @@ public Sprite Sprite { get; set; }
 
 
 
-#### SelectionAtlasWindow
+### SelectionAtlasWindow
 
 ![SelectionAtlasWindow](Image/SelectionAtlasWindow.jpg)
 
@@ -68,7 +68,7 @@ You can select the corresponding atlas by clicking the "Select" button on the fa
 
 ![SelectAtlasWindow_SelectedComponent](Image/SelectAtlasWindow_SelectedComponent.jpg)
 
-#### SpriteCollectionWindow
+### SpriteCollectionWindow
 
 ![SpriteCollectionWindow](Image/SpriteCollectionWindow.jpg)
 
@@ -86,4 +86,4 @@ In order to help you quickly find the sprite you want, you can select it through
 
 ##### :exclamation: If you do not select a GameObject in the scene or the selected GameObject does not contain the two components of this plug-in, the window will display the following style:
 
-![SpriteCollectionWindow_unSelectComponent](.\Image\SpriteCollectionWindow_unSelectComponent.jpg)
+![SpriteCollectionWindow_unSelectComponent](Image/SpriteCollectionWindow_unSelectComponent.jpg)
