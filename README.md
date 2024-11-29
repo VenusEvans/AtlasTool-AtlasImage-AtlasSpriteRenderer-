@@ -2,7 +2,7 @@
 
 ## Conveniently select sprite assets in the atlas
 
-[Unity Asset Store]: Ready...
+[Unity Asset Store]: https://assetstore.unity.com/packages/slug/303904
 
 ### AtlasImage Component
 
