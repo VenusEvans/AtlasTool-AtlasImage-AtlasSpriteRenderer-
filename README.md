@@ -16,7 +16,7 @@ You can open the "[SelectionAtlasWindow](#SelectionAtlasWindow )" by clicking th
 C# Member
 
 ```c#
-public string SpriteName { get; private set; } //Setting the value will change the sprite(The premise is that the atlas is not empty or the atlas contains this sprite.)
+public string SpriteName { get; private set; } //return sprite.name(If sprite is null, it will return null.)
 
 public SpriteAtlas Atlas { get; private set; } //Modifying this value in the inspector panel will not affect the SpriteName and sprite mumbers
 
