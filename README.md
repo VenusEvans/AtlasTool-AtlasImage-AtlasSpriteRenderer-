@@ -16,9 +16,9 @@ You can open the "[SelectionAtlasWindow](#SelectionAtlasWindow )" by clicking th
 C# Member
 
 ```c#
-public string SpriteName { get; set; } //Setting the value will change the sprite(The premise is that the atlas is not empty or the atlas contains this sprite.)
+public string SpriteName { get; private set; } //Setting the value will change the sprite(The premise is that the atlas is not empty or the atlas contains this sprite.)
 
-public SpriteAtlas Atlas { get; set; } //Setting the value will change the sprite atlas(After setting the new value, Get the SpriteName variable and find the sprite from the atlas. If it is not found, the value of spritename is null.)
+public SpriteAtlas Atlas { get; private set; } //Modifying this value in the inspector panel will not affect the SpriteName and sprite mumbers
 
 //AtlasImage inherits Image, you can still get Sprite through the AtlasImage.sprite member
 public Sprite sprite; //Member In UnityEngine.UI.Image.cs (Changing the value will also change the SpriteName member.)
@@ -38,8 +38,8 @@ C# Member
 
 ```c#
 //The usage of the following three members is the same as that of the members in AtlasImage.
-public string SpriteName { get; set; }
-public SpriteAtlas Atlas { get; set; }
+public string SpriteName { get; private set; }
+public SpriteAtlas Atlas { get; private set; }
 public Sprite Sprite { get; set; }
 ```
 
